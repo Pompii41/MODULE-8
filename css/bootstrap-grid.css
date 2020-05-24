@@ -22,13 +22,19 @@ html {
   margin: 0 auto;
 }
 
+
+
 .conteiner {
-  padding: 20px 20px 140px;
+  padding: 20px 0px 140px;
 }
 
 .image_tv:after {
   background-image: url(../img/icon/1.png);
   background-color: rgb(255, 78, 80);
+}
+
+.justify-content-center {
+  justify-content: center;
 }
 
 .image_person {
@@ -61,6 +67,8 @@ html {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+
 
 @media (max-width: 767px) {
   .col-1 {
@@ -149,19 +157,19 @@ html {
     margin: 0 auto;
   }
 
-  .conteiner {
-    padding: 20px 20px 140px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-      url(../img/2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-  }
-
   .conteiner_main {
     margin: 0 auto;
+
+  }
+
+  .conteiner {
+    padding: 20px 0px 140px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url(../img/one.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+
   }
 
   .conteiner_main {
@@ -175,8 +183,7 @@ html {
 
   .subtitle_name {
     font-size: 14px;
-    font-family: "Roboto",
-      sans-serif;
+    font-family: 'Roboto';
     color: rgb(102, 102, 102);
     line-height: 1.2;
     margin: 0 auto;
@@ -190,7 +197,7 @@ html {
   }
 
   .your_teen {
-    width: 404px;
+
     margin: 0 auto;
   }
 
@@ -207,8 +214,8 @@ html {
     line-height: 1.2;
     width: 260px;
     padding-bottom: 20px;
-    text-align: center;
     margin: 0 auto;
+    text-align: center;
   }
 
   .logo {
@@ -220,10 +227,21 @@ html {
     line-height: 1.2;
     text-align: center;
     display: block;
+
   }
 
   .box_logo {
     margin-bottom: 20px;
+
+  }
+
+  .box_btn {
+
+    margin-bottom: 120px;
+  }
+
+  .nav-button {
+    text-align: center;
   }
 
   .nav_conteiner {
@@ -233,11 +251,6 @@ html {
 
 @media (min-width: 768px) {
 
-  .container,
-  .container-sm,
-  .container-md {
-    max-width: 720px;
-  }
 
   .col-md-1 {
     -ms-flex: 0 0 8.333333%;
@@ -314,6 +327,7 @@ html {
   .conteiner_main {
     padding: 45px 0px 40px;
     margin: 0 auto;
+    width: 492px;
   }
 
   .conteiner {
@@ -325,6 +339,7 @@ html {
     margin: 0 auto;
     display: block;
     text-align: center;
+
   }
 
   .title_main {
@@ -346,7 +361,8 @@ html {
 
   .subtitle {
     font-size: 24px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto",
+      sans-serif;
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: center;
@@ -377,7 +393,7 @@ html {
 
   .subtitle_name {
     font-size: 14px;
-    font-family: 'Roboto',
+    font-family: "Roboto",
       sans-serif;
     color: rgb(102, 102, 102);
     line-height: 1.2;
@@ -386,18 +402,14 @@ html {
     margin: 0 auto;
   }
 
-  .subtitle_name:nth-child(n+3):nth-child(-n+4) {
+  .subtitle_name:nth-child(n + 3):nth-child(-n + 4) {
     margin-bottom: 50px;
   }
 }
 
 @media (min-width: 940px) {
 
-  .container,
-  .container-sm,
-  .container-md {
-    max-width: 720px;
-  }
+
 
   .col-lg-0 {
     display: none;
@@ -478,6 +490,7 @@ html {
   .conteiner_main {
     margin: 0 auto;
     padding: 75px 0px 75px;
+    width: 940px;
   }
 
   .title_main {
@@ -530,7 +543,8 @@ html {
     margin-bottom: 40px;
     width: 400px;
     font-size: 24px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto",
+      sans-serif;
     color: rgb(255, 255, 255);
     line-height: 1.2;
     text-align: center;
@@ -555,12 +569,10 @@ html {
 
   .subtitle_name {
     font-size: 14px;
-    font-family: "Roboto",
-      sans-serif;
+    font-family: "Roboto", sans-serif;
     color: rgb(102, 102, 102);
     line-height: 1.2;
     text-align: center;
-
   }
 }
 
@@ -607,7 +619,6 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-
 }
 
 .no-gutters {
